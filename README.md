@@ -4,9 +4,6 @@ This project is intended to be a mini library capable of handling AWS Lambda inv
 ## Motivation
 The motivation for this project is a simple one: I just wanted to run some rust code in a Lambda. As it turns out, this is not natively supported but thankfully it isn't terribly difficult and the lambda runtime process is well documented.
 
-# Compilation
-There are some things to do before we can actually compile. You need to setup your environment (as shown below) or else the requisite commands/binary will be incompatible with Amazon Linux.
-
 ## Compilation Enviornment
 Our program ultimately must be cross-compiled in a way that is able to be run on an ec2 container in the aether. To achieve this, we'll need to first install the correct system target.
 
